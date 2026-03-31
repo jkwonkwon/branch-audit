@@ -1,5 +1,7 @@
 ---
 description: Audit a branch or worktree for activity signals before deletion. Gathers commits ahead, uncommitted files, file timestamps, open PRs, linked issues, and spec docs. Writes result to .git/branch-audit-cache.
+argument-hint: <branch-name-or-worktree-path>
+allowed-tools: Bash(python3:*)
 ---
 
 Run the audit script for the given branch or worktree path:

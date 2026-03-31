@@ -1,6 +1,10 @@
 ---
 name: branch-audit
-description: Use when analyzing branch or worktree status, recommending cleanup, or before any deletion. Runs /branch-audit to gather all signals before drawing conclusions. Never assess a branch as stale or safe to delete without running the audit first.
+description: |
+  Use when analyzing branch or worktree status, recommending cleanup, or before any deletion. Runs /branch-audit to gather all signals before drawing conclusions. Never assess a branch as stale or safe to delete without running the audit first.
+  <example>Should I delete the investigate/scalability branch? It seems stale.</example>
+  <example>Clean up stale worktrees and branches</example>
+  <example>Which branches are safe to delete?</example>
 ---
 
 # Branch Audit Protocol
