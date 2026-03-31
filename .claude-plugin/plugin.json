@@ -1,0 +1,13 @@
+{
+  "name": "branch-audit",
+  "version": "1.0.0",
+  "description": "Multi-signal branch/worktree audit with deletion protection. Prevents Claude from recommending deletion of active branches by requiring a full audit before any git branch or worktree removal.",
+  "author": {
+    "name": "Joe Kwon",
+    "email": "jkwon@yext.com"
+  },
+  "homepage": "https://github.com/jkwonkwon/branch-audit",
+  "repository": "https://github.com/jkwonkwon/branch-audit",
+  "license": "MIT",
+  "keywords": ["git", "branch-management", "audit", "worktree", "safety"]
+}
